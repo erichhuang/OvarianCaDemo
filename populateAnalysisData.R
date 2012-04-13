@@ -85,5 +85,5 @@ ptAnal$platSensitive12mo <- ifelse(ptAnal$ttr >= (365.25), 1, 0)
 exprAnal <- exprTumor[ , rownames(ptAnal)]
 
 
-rm(list=setdiff(ls(), c("ptAnal", "exprTumor")))
+rm(list=setdiff(ls(), c("ptAnal", "exprAnal")))
 
